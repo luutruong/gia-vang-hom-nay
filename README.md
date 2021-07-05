@@ -24,7 +24,7 @@ Parameters:
 * `date`: __optional__: A date with format: Y-m-d. Eg: 2021-07-05
 
 Response:
-```json
+```
 {
   status: "ok",
   data: [
