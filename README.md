@@ -16,6 +16,13 @@ Clone repo này về máy tính của bạn sau đó `cd` tới thư mục bạn
 
 Sau đó mở link sau trên trình duyệt của bạn [http://localhost:8080](http://localhost:8080)
 
+### Docker
+
+Để chạy bản production với docker bạn chạy những lệnh sau:
+`docker build -f Dockerfile -t giavanghomnay .`
+
+Sau đó run với `docker run -d -p '8080:8080' -t --name giavanghomnay giavanghomnay`
+
 ## API
 
 ### GET `/`
